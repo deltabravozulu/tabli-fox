@@ -16,7 +16,6 @@
         "storage",
         "tabs",
         "bookmarks",
-        "chrome://favicon/*",
         "sessions"
     ],
     "icons": {
@@ -31,9 +30,8 @@
                 "mac": "MacCtrl+Period"
             }
         },
-        "show_popout": {
+        "default_popup": {
             "description": "Show the Tabli popout window",
-            "global": true,
             "suggested_key": {
                 "default": "Ctrl+Comma",
                 "mac": "MacCtrl+Comma"
