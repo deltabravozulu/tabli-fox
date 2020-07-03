@@ -1,0 +1,17 @@
+# Get an API key and secret from here: 
+# https://addons.mozilla.org/en-US/developers/addon/api/key/
+# Available variables to modify are as follows:
+	# sourcedir=<source directory> (optional)
+		# set sourcedir such that it is the directory containing the files that your extension will hold
+	# JWTIssuer=<key> (required)
+		# set JWTIssuer to the value listed at the above URL
+	# JWTSecret=<secret> (required)
+		# set JWTSecret to the value listed at the above URL
+# EXAMPLE:
+	# sourcedir=./tf_src
+	# JWTIssuer=user:16213231:802
+	# JWTSecret=a3bc892d3b9c1f7aaca1bbea488bbcd8a12312cd23cca8121bd1e32bffeaf9782393
+
+sourcedir=./tf_src
+JWTIssuer=
+JWTSecret=
